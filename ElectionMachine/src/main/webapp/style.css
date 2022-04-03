@@ -47,7 +47,11 @@ button {
 .nav-links li a:hover {
   color: rgba(0, 173, 181, 0.8);
 }
-
+.img {
+    width: 100%;
+    position:relative;
+    top:20px;
+  }
 button {
   background: #04bd70;
   cursor: pointer;
