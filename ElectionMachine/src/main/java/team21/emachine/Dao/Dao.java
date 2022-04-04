@@ -26,7 +26,7 @@ public class Dao {
 		}
 		}
 	public void addUser(String username, String pw, String salt){
-		String sql = "insert into useraccount (username, hashedpassword, salt) values (?,?,?)";
+		String sql = "insert into user (username, hashedpassword, salt) values (?,?,?)";
 		try {
 			PreparedStatement stmt = conn.prepareStatement(sql);
 			
