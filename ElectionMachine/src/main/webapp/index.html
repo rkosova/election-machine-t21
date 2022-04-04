@@ -1,29 +1,74 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-    <title>Election machine</title>
-  </head>
+<html lang="en">
 
-  <body>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Election machine</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#">Welcome</a>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
+                    </li>
+					<li>
+                        <a href="#">Log in</a>
+                    </li>
+                    <li>
+                        <a href="#">Candidates</a>
+                    </li>
+                    <li>
+                        <a href="#">Vote</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+	<!-- Header -->
     <header>
-      <span class="nav-links">
-        <li><a href="#">Welcome</a></li>
-      </span>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Register</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Candidates</a></li>
-        </ul>
-      </nav>
-      <a href="#"><button>Vote</button></a>
+        <div class="header-content">
+            <h1>Vote</h1>
+            <div class="header-content-inner">
+                <p>Choose the best candidate based on their answers</p>
+                <a href="#" class="btn btn-primary btn-lg">Vote</a>
+            </div>
+        </div>
     </header>
-    <img src="vote.png" alt="vote">
-  <a href='/vote'>Vote now</a>
-  </body>
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading">Register with us</h2>
+                    <p class="text-light">To vote you need to be at least 18 years of age and be registered with us!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
 </html>
