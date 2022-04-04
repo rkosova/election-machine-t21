@@ -7,12 +7,4 @@
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-        <servlet-name>Dao</servlet-name>
-        <servlet-class>team21.emachine.Dao</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Dao</servlet-name>
-        <url-pattern>/check</url-pattern>
-    </servlet-mapping>
 </web-app>
