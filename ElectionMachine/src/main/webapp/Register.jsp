@@ -14,9 +14,9 @@ function validate()
      var password = document.form.password.value;
      var conpassword= document.form.conpassword.value;
       
-     if (fullname==null || fullname=="")
+     if (firstname==null || firstname=="")
      { 
-     alert("Full Name can't be blank"); 
+     alert("First name can't be blank"); 
      return false; 
      }
      else if (email==null || email=="")
@@ -43,12 +43,16 @@ function validate()
 </script> 
 </head>
 <body>
-<center><h2>Java Registration application using MVC and MySQL </h2></center>
-    <form name="form" action="RegisterServlet" method="post" onsubmit="return validate()">
+<center><h2>Register with us</h2></center>
+    <form accept-charset="UTF-8" name="form" action="RegisterServlet" method="post" onsubmit="return validate()">
         <table align="center">
          <tr>
-         <td>Full Name</td>
-         <td><input type="text" name="fullname" /></td>
+         <td>First Name</td>
+         <td><input type="text" name="firstname" /></td>
+         </tr>
+         <tr>
+         <td>Last Name</td>
+         <td><input type="text" name="lastname" /></td>
          </tr>
          <tr>
          <td>Email</td>
